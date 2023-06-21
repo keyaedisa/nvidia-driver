@@ -50,7 +50,7 @@ int         nvlink_strcmp(const char *, const char *);
 int         nvlink_snprintf(char *, NvLength, const char *, ...);
 
 // Locking support functions
-void *      nvlink_allocLock(void);
+void *      nvlink_allocLock();
 void        nvlink_acquireLock(void *);
 NvBool      nvlink_isLockOwner(void *);
 void        nvlink_releaseLock(void *);
